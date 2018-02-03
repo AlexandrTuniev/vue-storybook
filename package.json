@@ -1,0 +1,38 @@
+{
+  "name": "storybook-vue",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A demo of storybook for vue with some components",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 9001",
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "storybook-to-ghpages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndelangen/storybook-vue-example.git"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "mathquill": "https://github.com/luxp/mathquill-webpack.git",
+    "vue": "^2.5.13"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.2.16",
+    "@storybook/addon-knobs": "^3.2.16",
+    "@storybook/addon-links": "^3.2.16",
+    "@storybook/addon-notes": "^3.2.16",
+    "@storybook/cli": "alpha",
+    "@storybook/storybook-deployer": "^2.2.0",
+    "@storybook/vue": "^3.2.16",
+    "exports-loader": "^0.6.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "imports-loader": "^0.7.1",
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.5.9",
+    "webpack": "^3.6.0"
+  },
+  "author": "atuniev"
+}
